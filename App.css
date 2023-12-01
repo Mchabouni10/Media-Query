@@ -1,0 +1,146 @@
+body {
+    background-image: url(https://wallpapers-clan.com/wp-content/uploads/2023/10/naruto-uzumaki-in-battle-anime-desktop-wallpaper-preview.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .title1 {
+    font-weight: bold;
+    margin: 1em;
+    display: block;
+    font-size: 40px;
+    color: azure;
+    text-align: center;
+  }
+  
+  .title2 {
+    display: none;
+  }
+  
+  .title3 {
+    display: none;
+  }
+
+  .container{
+    display: flex;
+  }
+  
+  .Narutoimage {
+    margin-top: 5em;
+    margin-left: 3em;
+    height: 290px;
+    width: 290px;
+    border: .5em solid orange;
+    background-image: url("https://qph.cf2.quoracdn.net/main-qimg-d9d01586e84c2a84452221bf5cb33689-lq");
+    background-size: cover;
+    border-radius: 2em;
+  }
+  .text-naruto{
+    margin-top: 8em;
+    margin-left: 5em;
+    color: rgb(133, 131, 130);
+    font-size: 25px;
+    text-shadow: 1px 0 rgb(203, 196, 196);
+}
+
+
+
+  /* ============================== the medium screen =================================================== */
+  
+  @media screen and (max-width: 800px) {
+    body {
+      background-image: url(https://live.staticflickr.com/340/19348375180_0fcd697ebf_b.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+  
+    .title1 {
+      display: none;
+    }
+  
+    .title2 {
+    text-align: center;
+      display: block;
+      font-size: 30px;
+      font-weight: bold;
+      color: rgb(128, 48, 48);
+    }
+  
+    .title3 {
+      display: none;
+    }
+    .container{
+        display: flex;
+        margin: 3em;
+        justify-content: space-between;
+    }
+  
+    .Narutoimage {
+      margin: 1em;
+      height: 390px;
+      width: 390px;
+      border: .5em solid rgb(87, 86, 84);
+      background-image: url("https://i.pinimg.com/originals/5f/7b/24/5f7b24dd4920b7c08b7ed2fac0c159de.png");
+      background-size: cover;
+    }
+    .text-naruto{
+        margin-top: 5em;
+        margin-left: 4em;
+        color: rgb(192, 72, 12);
+        font-size: 25px;
+        text-shadow: 1px 0 rgb(231, 155, 155);
+    }
+  }
+  
+
+
+
+
+
+/* ============================== the small screen =================================================== */
+
+  @media screen and (max-width: 600px) {
+    body {
+      background-image: url(https://i.pinimg.com/originals/aa/ef/d5/aaefd5ea4429fc1d185f8cb1f349252b.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+  
+    .title1 {
+      display: none;
+    }
+  
+    .title2 {
+      display: none;
+    }
+  
+    .title3 {
+      font-weight: bold;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      display: block;
+      font-size: 18px;
+      color: rgb(25, 26, 23);
+      text-align: center;
+    }
+    .container{
+        display: block;
+    }
+  
+    .Narutoimage {
+      align-items: center;
+      margin-top: 1em;
+      height: 290px;
+      width: 290px;
+      border: .7em solid rgb(44, 43, 41);
+      border-radius: 40%;
+      background-image: url("https://preview.redd.it/h577cudq53071.jpg?width=620&format=pjpg&auto=webp&s=c16c4fca40a7540fb3a516b5ac7d2a2d174b1052");
+      background-size: cover;
+    }
+    .text-naruto{
+        text-align: center;
+        margin-top: 1em;
+        color: rgb(35, 37, 38);
+        font-size: 18px;
+        text-shadow: 1px 0 white;
+    }
+  }
